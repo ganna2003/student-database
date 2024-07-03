@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="submit"],input[type="email"],input[type="tel"],input[type="file"]  {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color:lightcoral;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color:brown;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+#signup-form {
+    display: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('adi.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  input[type="email"],input[type="tel"] {
+    width: 200px;
+  }
+
+
+  input[type="file"] {
+    width: 100;
+  }
